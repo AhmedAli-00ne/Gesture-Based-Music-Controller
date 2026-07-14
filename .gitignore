@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / caches (spotipy writes an OAuth token cache here — never commit it)
+.cache
+.env
+
+# Large / generated model artifacts
+*.joblib
+knn_model.joblib
+gesture_model.h5
+gesture_model_weights.h5
+
+# Dataset — download separately from Kaggle (see README)
+leapgestrecog/
+kaggle/

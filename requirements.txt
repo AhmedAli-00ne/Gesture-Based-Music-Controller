@@ -1,0 +1,9 @@
+spotipy
+tensorflow
+opencv-python
+numpy
+Pillow
+scikit-learn
+joblib
+keyboard
+matplotlib
